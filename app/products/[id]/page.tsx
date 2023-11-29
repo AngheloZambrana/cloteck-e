@@ -7,7 +7,7 @@ import Nadvar from '@/app/components/ui/Navbar';
 
 const ProductDetailPage = () => {
   const { id: productId } = useParams(); 
-
+  
   const [product, setProduct] = useState<Product | null>(null);
 
   useEffect(() => {
